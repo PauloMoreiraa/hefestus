@@ -9,7 +9,6 @@
 }
 
 body{
-    height: 200vh;
     overflow-x: hidden;
     width: 100%;
     background-color: #222;
@@ -28,6 +27,7 @@ body{
 }
 
 .mouse{
+    z-index: 1  ;
     position: absolute;
     bottom: 0;
     margin-bottom: 60px;

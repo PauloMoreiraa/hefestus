@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   position: absolute;
-  background: radial-gradient(circle at 100%, rgba(0, 0, 0, 0), #000000 50%, #000 75%, #000 75%);
+  background: radial-gradient(circle at 100%, rgba(0, 0, 0, 0), #000000 60%, #000 40%, #000 40%);
   z-index: 0;
 }
 

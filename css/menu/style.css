@@ -7,7 +7,7 @@ header {
   z-index: 99;
 }
 header .sticky {
-  background-color: rgba(34, 34, 34, 0.3647058824);
+  background-color: rgba(0, 0, 0, 0.5607843137);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   transition: 0.3s;
@@ -33,6 +33,13 @@ header .navbar .logo {
   text-decoration: none;
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navbar .logo img {
+  width: 6vh;
 }
 header .navbar .mobile-menu {
   font-size: 1.4rem;
@@ -77,13 +84,19 @@ header .navbar .nav-list {
 header .navbar .nav-list li {
   margin-left: 30px;
   letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .navbar .nav-list li #diff {
   color: #222 !important;
   background-color: #ffdc17;
-  padding: 5px 20px;
-  border-radius: 4px;
+  padding: 8px 25px;
+  border-radius: 24px;
   border: 1px solid #ffdc17;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header .navbar .nav-list li #diff:hover {
   background-color: transparent;

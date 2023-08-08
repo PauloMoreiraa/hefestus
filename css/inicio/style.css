@@ -63,7 +63,7 @@ main .parts .part1 .texto-inicio p {
   main .parts .part1 .texto-inicio p {
     padding: 0 5%;
     text-align: justify;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding-bottom: 4px;
   }
 }

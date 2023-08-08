@@ -1,0 +1,46 @@
+#patrocinadores {
+  background-color: #000;
+}
+#patrocinadores .patrocinios {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+@media (max-width: 1000px) {
+  #patrocinadores .patrocinios {
+    gap: 2px;
+    background-color: aqua;
+  }
+}
+#patrocinadores .patrocinios .patrocinio {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  #patrocinadores .patrocinios .patrocinio {
+    width: 60px;
+    height: 60px;
+  }
+}
+#patrocinadores .patrocinios .patrocinio img {
+  width: 150px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+@media (max-width: 1000px) {
+  #patrocinadores .patrocinios .patrocinio img {
+    width: 60px;
+  }
+}
+#patrocinadores .patrocinios .patrocinio img:hover {
+  opacity: 1;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */

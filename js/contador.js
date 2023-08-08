@@ -17,7 +17,7 @@
      const dias = Math.floor(diferenca / 1000 / 60 / 60 / 24);
 
      // Atualiza o contador na página
-     document.getElementById("contador").innerText = `${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
+     document.getElementById("contador").innerText = `${dias}d, ${horas}h, ${minutos}m e ${segundos}s`;
    }
  }
 

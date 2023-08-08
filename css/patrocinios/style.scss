@@ -1,0 +1,49 @@
+#patrocinadores{
+    background-color: #000;
+
+    .patrocinios{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 30px;
+       justify-content: space-around;
+
+       @media (max-width: 1000px){
+        gap: 2px;
+        background-color: aqua;
+    }
+
+        .patrocinio{
+            width: 150px;
+            height: 150px;            
+            background-color: transparent;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 1000px){
+                width: 60px;
+                height: 60px;
+            }
+
+          
+            img{
+                width: 150px;
+                filter: grayscale(100%);
+                opacity: .5;
+                transition: .3s;
+
+                @media (max-width: 1000px){
+                    width: 60px;
+                }
+
+                &:hover{
+                    opacity: 1;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}
+

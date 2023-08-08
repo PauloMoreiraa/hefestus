@@ -6,7 +6,7 @@
   padding-bottom: 8vh;
 }
 #categorias .sub-titulo {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #fff;
   display: flex;
@@ -15,6 +15,9 @@
 }
 #categorias .sub-titulo ion-icon {
   color: #ffdc17;
+}
+#categorias p {
+  font-size: 3vh;
 }
 #categorias .cards-box {
   display: flex;

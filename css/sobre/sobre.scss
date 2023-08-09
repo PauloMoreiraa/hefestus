@@ -1,0 +1,54 @@
+#sobre{
+
+    .box-card{
+        padding-top: 10vh;
+        background-color: #000;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        span{
+            color: #fff;
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+        p{
+            color: #fff;
+            font-size: 1.3rem;
+            padding-bottom: 10px;
+    
+            @media (max-width: 1000px) {
+                padding: 0 5%;
+                text-align: justify;
+                font-size: .9rem;
+                padding-bottom: 4px;
+             }
+        }
+        
+
+        .card{
+            padding: 20px;
+            width: 400px;
+            background: linear-gradient(45deg, #ffdc17, #ffe867, #ffdc17);
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            span{
+                display: flex;
+                align-items: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

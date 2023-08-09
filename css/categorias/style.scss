@@ -19,7 +19,16 @@
     }
 
     p{
-        font-size: 3vh;
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+
+        @media (max-width: 1000px) {
+            padding: 0 5%;
+            text-align: justify;
+            font-size: .9rem;
+            padding-bottom: 4px;
+         }
     }
 
     .cards-box{

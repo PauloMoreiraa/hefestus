@@ -1,3 +1,5 @@
+@import '../vars/vars.scss';
+
 #categorias{
     height: auto;
     width: 100%;
@@ -16,6 +18,11 @@
         ion-icon{
             color: #ffdc17;
         }
+    }
+
+    .descricao{
+        font-size: 1.3rem;
+        color: #fff;
     }
 
     p{
@@ -67,6 +74,10 @@
                     transition: .3s;
                     transform: translateY(-3px);
 
+                }
+
+                h1{
+                    text-align: center;
                 }
             }
         }

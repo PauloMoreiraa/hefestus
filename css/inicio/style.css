@@ -101,9 +101,7 @@ main .parts .part1 .botoes .btn-inicio {
   }
 }
 main .parts .part1 .botoes .btn-inicio:hover {
-  transform: translateY(-3px);
   transition: 0.3s;
-  box-shadow: 0 0 5px #ffdc17;
 }
 main .parts .part1 .botoes .reg {
   background-color: transparent;
@@ -156,7 +154,7 @@ main .parts .part2 .boxs {
   }
 }
 main .parts .part2 .boxs .box-contador {
-  background-color: #333;
+  background: radial-gradient(#303030, rgb(26, 26, 26));
   color: #fff;
   width: 50%;
   padding: 14px;

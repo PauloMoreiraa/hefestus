@@ -15,12 +15,27 @@
   align-items: center;
   justify-content: flex-start;
 }
+@media (max-width: 1000px) {
+  #categorias .sub-titulo {
+    padding: 0 5%;
+    font-size: 1.4rem;
+    padding-bottom: 4px;
+  }
+}
 #categorias .sub-titulo ion-icon {
   color: #ffdc17;
 }
 #categorias .descricao {
   font-size: 1.3rem;
   color: #fff;
+}
+@media (max-width: 1000px) {
+  #categorias .descricao {
+    padding: 0 5%;
+    text-align: justify;
+    font-size: 0.9rem;
+    padding-bottom: 4px;
+  }
 }
 #categorias p {
   color: #fff;
@@ -35,10 +50,46 @@
     padding-bottom: 4px;
   }
 }
+#categorias .maps {
+  background-color: #ffdc17;
+  padding: 7px 14px;
+  display: flex;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  border-radius: 9px;
+  border: 1px #ffdc17 solid;
+  transition: 0.3s;
+}
+#categorias .maps:hover {
+  color: #ffdc17;
+  background-color: transparent;
+  transition: 0.3s;
+}
+@media (max-width: 1000px) {
+  #categorias .maps {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10px;
+  }
+}
 #categorias .cards-box {
   display: flex;
   flex-direction: column;
   background-color: transparent;
+}
+@media (max-width: 1000px) {
+  #categorias .cards-box {
+    padding: 0 5%;
+    padding-bottom: 4px;
+  }
 }
 #categorias .cards-box .cards {
   padding-top: 10px;
@@ -50,6 +101,7 @@
   #categorias .cards-box .cards {
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
 }
 #categorias .cards-box .cards .card {
@@ -75,9 +127,14 @@
   text-align: center;
 }
 #categorias .premiacao-box {
-  padding-top: 5%;
   display: flex;
   flex-direction: column;
+  gap: 70px;
+}
+@media (max-width: 1000px) {
+  #categorias .premiacao-box {
+    gap: 50px;
+  }
 }
 #categorias .premiacao-box p {
   color: #fff;

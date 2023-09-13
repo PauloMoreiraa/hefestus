@@ -1,5 +1,5 @@
  // Definindo a data limite para o contador (formato: "ano/mês/dia")
- const dataLimite = new Date("2023-08-31");
+ const dataLimite = new Date("2023-10-27");
 
  // Função para atualizar o contador
  function atualizarContador() {

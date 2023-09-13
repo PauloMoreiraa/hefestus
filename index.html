@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/inicio/style.css">
     <link rel="stylesheet" href="css/categorias/style.css">
     <link rel="stylesheet" href="css/patrocinios/style.css">
-    <link rel="stylesheet" href="css/sobre/sobre.css">
+    <link rel="stylesheet" href="css/footer/style.css">
 
   <!-- Inclua o jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -40,9 +40,8 @@
                 <ion-icon name="grid-outline"></ion-icon>
             </div>
             <ul class="nav-list">
-                <li><a href="#regulamento">Regulamento</a></li>
-                <li><a href="#categorias">Categorias</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#categorias">Sobre</a></li>
                 <li><a href="#patrocinadores">Patrocinadores</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a id="diff" href="#inscrevase">Inscreva-se&nbsp;<ion-icon name="send-outline"></ion-icon></a></li>
@@ -53,7 +52,7 @@
     <div class="mouse"><a href="#"><box-icon name='mouse' color='#ffffff' ></box-icon></a></div>
 
     <div class="efeito-fundo"></div>
-    <main>
+    <main id="inicio">
         <div class="parts container">
             <div class="part1">
                 <h1>Desafio de Engenharia e Robótica</h1>
@@ -156,12 +155,32 @@
             
          
         </div>
-        <div class="premiacao-box container">
-            <span class="sub-titulo"><ion-icon name="trophy"></ion-icon>&nbsp;Premiações</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur esse laborum, pariatur quam, amet adipisci, tempora sed quibusdam similique aperiam delectus corrupti. Dolor fuga nam ad dolores, recusandae laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis placeat, incidunt fuga explicabo magnam perferendis accusamus quisquam temporibus expedita ratione odio obcaecati quaerat alias. Dicta consequuntur ea eius veritatis.</p>
+        <div class="premiacao-box container" id="sobre">
+            <div>
+                <span class="sub-titulo"><ion-icon name="trophy"></ion-icon>&nbsp;Premiações</span>
+                <p>Reconhecemos a dedicação e a excelência das equipes competindo no Coliseu. Os vencedores de cada categoria serão recompensados com prêmios em dinheiro. Essa é uma oportunidade para não apenas demonstrar suas habilidades técnicas, mas também colher os frutos do seu trabalho.</p>
+            </div>
+            <div>
+                <span class="sub-titulo"><ion-icon name="document"></ion-icon>&nbsp;Regulamento das Competições</span>
+                <p>Com o intuito de garantir a integridade e a imparcialidade das competições, o regulamento oficial do Coliseu está em fase de desenvolvimento. Em breve, disponibilizaremos o regulamento completo em nosso site, onde você encontrará todas as diretrizes e regras essenciais para participar das competições. Mantenha-se atento para obter todas as informações relevantes.</p>
+            </div>
+            <div>
+                <span class="sub-titulo"><ion-icon name="shield-half-sharp"></ion-icon>&nbsp;Prepare-se para a arena</span>
+                <p>O Coliseu é o palco perfeito para você exibir suas criações, superar desafios técnicos e conquistar o reconhecimento merecido. Seja um veterano da robótica ou alguém buscando experiências emocionantes, este é o momento de se destacar e deixar sua marca no mundo da inovação tecnológica.</p>
+                <p>Acompanhe nosso site oficial e redes sociais para ficar por dentro das últimas novidades sobre o evento.</p>
+                <p>Prepare-se para uma competição de tecnologia intensa e repleta de emoção no Coliseu 2023!</p>
+            </div>
+            <div>
+                <span class="sub-titulo"><ion-icon name="calendar-sharp"></ion-icon>&nbsp;Data e Horário dos Eventos</span>
+                <p>O Coliseu apresentará uma série de competições emocionantes ao longo de três dias, de 27 à 29 de outubro. As portas abrirão às 8:00 no dia 27 e funcionarão das 9:00 às 20:00 no dia 28, encerrando às 17:00 no dia 29. Marque esses horários em seu calendário e prepare-se para testemunhar a engenhosidade em ação.</p>
+                <a class="maps" href="#" target="_blank"><ion-icon name="location-sharp"></ion-icon>&nbsp;Ver no Maps</a>
+            </div>
         </div>
     </section>
 
+
+
+    
     <section id="patrocinadores">
     
         <hr>
@@ -210,20 +229,29 @@
       <hr>
     </section>
 
-    <section id="sobre">
-        <div class="box-card container">
-            <span>Data e Horário dos Eventos</span>
-            <p>O Coliseu apresentará uma série de competições emocionantes ao longo de três dias, de 27 à 29 de outubro. As portas abrirão às 8:00 no dia 27 e funcionarão das 9:00 às 20:00 no dia 28, encerrando às 17:00 no dia 29. Marque esses horários em seu calendário e prepare-se para testemunhar a engenhosidade em ação.</p>
-            <div class="card">
-                <span><ion-icon name="location-outline"></ion-icon>&nbsp;Localização</span>
-                <p>endereço aqui</p>
-                <a href="#" target="_blank">Ver no maps&nbsp;<ion-icon name="arrow-redo-outline"></ion-icon></a>
+   
+
+
+    <footer class="footer">
+        <div class="footer-title">
+            Contate-nos
+        </div>
+        <div class="social-icons">
+            <div class="it">   
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a><span class="rd">Whatsapp</span>
+            </div>
+            <div class="it">   
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a><span class="rd">Facebook</span>
+            </div>
+            <div class="it">   
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a><span class="rd">Instagram</span>
+            </div>
+            <div class="it">   
+                <a href="mailto:#" class="social-icon"><i class="fas fa-envelope"></i></a><span class="rd">Email</span>
             </div>
         </div>
-    </section>
-
-    
-    
+        <div class="nome">Associação de Pesquisa, Desenvolvimento e Tecnologia Hefestus</div>
+    </footer>
 
     <script src="js/menu-scroll.js"></script>
     <script src="js/contador.js"></script>

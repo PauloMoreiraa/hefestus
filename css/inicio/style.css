@@ -83,16 +83,15 @@ main .parts .part1 .botoes .btn-inicio {
   color: #222;
   text-decoration: none;
   background-color: #ffdc17;
-  width: 250px;
   text-align: center;
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 12px;
   border: 1px solid #ffdc17;
   transition: 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 @media (max-width: 1000px) {
   main .parts .part1 .botoes .btn-inicio {
@@ -102,10 +101,16 @@ main .parts .part1 .botoes .btn-inicio {
 }
 main .parts .part1 .botoes .btn-inicio:hover {
   transition: 0.3s;
-}
-main .parts .part1 .botoes .reg {
   background-color: transparent;
   color: #ffdc17;
+}
+main .parts .part1 .botoes .reg {
+  background-color: #222;
+  color: #ffdc17;
+  border: 1px solid #222;
+}
+main .parts .part1 .botoes .reg:hover {
+  border: 1px solid #ffdc17;
 }
 @media (max-width: 1000px) {
   main .parts .part1 {
@@ -126,25 +131,26 @@ main .parts .part2 {
   width: 50%;
   background-color: transparent;
   height: 100%;
-  padding-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
 }
-main .parts .part2 .animacao {
-  z-index: 1;
-  background-color: transparent;
-  animation: robo infinite 3s ease-in-out;
+main .parts .part2 iframe {
+  z-index: 9;
+  border-radius: 12px;
 }
-main .parts .part2 .animacao img {
-  width: 100%;
+@media (max-width: 1000px) {
+  main .parts .part2 iframe {
+    width: 360px;
+    height: 202px;
+  }
 }
 main .parts .part2 .boxs {
   z-index: 1;
   display: flex;
   width: 35vw;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: transparent;
   gap: 10px;
 }
@@ -156,14 +162,14 @@ main .parts .part2 .boxs {
 main .parts .part2 .boxs .box-contador {
   background: radial-gradient(#303030, rgb(26, 26, 26));
   color: #fff;
-  width: 50%;
+  width: 560px;
   padding: 14px;
   border-radius: 10px;
+  text-align: center;
 }
 @media (max-width: 1000px) {
   main .parts .part2 .boxs .box-contador {
     width: 100%;
-    text-align: center;
   }
   main .parts .part2 .boxs .box-contador span {
     font-size: 0.6rem;

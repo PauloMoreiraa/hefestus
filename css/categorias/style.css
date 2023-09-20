@@ -14,12 +14,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: transparent;
 }
 @media (max-width: 1000px) {
   #categorias .sub-titulo {
     padding: 0 5%;
-    font-size: 1.4rem;
-    padding-bottom: 4px;
+    font-size: 1.2rem;
   }
 }
 #categorias .sub-titulo ion-icon {
@@ -31,7 +31,7 @@
 }
 @media (max-width: 1000px) {
   #categorias .descricao {
-    padding: 0 5%;
+    padding: 0 1%;
     text-align: justify;
     font-size: 0.9rem;
     padding-bottom: 4px;
@@ -52,9 +52,9 @@
 }
 #categorias .maps {
   background-color: #ffdc17;
-  padding: 7px 14px;
-  display: flex;
+  padding: 10px 20px;
   width: 200px;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 90%;
+    width: 300px;
     margin-top: 10px;
   }
 }

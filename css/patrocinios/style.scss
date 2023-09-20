@@ -4,17 +4,21 @@
     .patrocinios{
        width: 100%;
        display: flex;
-       flex-wrap: wrap;
        gap: 30px;
        justify-content: space-around;
 
        @media (max-width: 1000px){
         gap: 2px;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: transparent;
     }
 
         .patrocinio{
-            width: 150px;
-            height: 150px;            
+            width: 400px;
+            height: 200px;            
             background-color: transparent;
             border-radius: 5px;
             display: flex;
@@ -28,18 +32,16 @@
 
           
             img{
-                width: 150px;
-                filter: grayscale(100%);
-                opacity: .5;
+                width: 400px;
+                //filter: grayscale(100%);
+                opacity: 1;
                 transition: .3s;
+                cursor: pointer;
+                border-radius: 12px;
 
                 @media (max-width: 1000px){
-                    width: 60px;
-                }
-
-                &:hover{
+                    width: 200px;
                     opacity: 1;
-                    transition: .3s;
                 }
             }
         }

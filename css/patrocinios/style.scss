@@ -1,5 +1,26 @@
-#patrocinadores{
+.patrocinadores{
     background-color: #000;
+
+    .titulo-patrocinadores{
+        width: 100%!important;
+        background-color: transparent;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            color: #fff;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bolder!important;
+
+            @media (max-width: 1000px){
+                font-size: 1.4rem;
+                padding-bottom: 40px;
+            }
+        }
+    }
 
     .patrocinios{
        width: 100%;

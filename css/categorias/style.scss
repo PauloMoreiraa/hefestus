@@ -170,15 +170,36 @@
            
         }
 
-        #bt{
+        #combate{
+            background-image: url('../../img/combate.png');
+            
+        }
+
+        #corda{
+            background-image: url('../../img/corda.png');
+        }
+        #bt{ 
             background-image: url('../../img/bt.png');
+        }
+
+        #trilha{ 
+            background-image: url('../../img/trilha.png');
+        }
+
+        #trekking{
+            background-image: url('../../img/trekking.png');
+        }
+
+        #sumo{
+            background-image: url('../../img/sumo.png');
+            
         }
         
         .item{
             background-position: center;
             background-size: cover;
             opacity: .8;
-            //background: radial-gradient( #303030, rgb(26, 26, 26));
+            
             display: flex;
             align-items: center;
             justify-content: center;

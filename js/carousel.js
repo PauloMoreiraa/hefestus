@@ -1,7 +1,7 @@
 
   $(document).ready(function(){
     $('.tecnologias').slick({
-      infinite: true,
+      infinite: false,
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,

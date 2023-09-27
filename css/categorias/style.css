@@ -155,8 +155,23 @@
 .slider-tecnologias .tecnologias #seguidor {
   background-image: url("../../img/seguidor.png");
 }
+.slider-tecnologias .tecnologias #combate {
+  background-image: url("../../img/combate.png");
+}
+.slider-tecnologias .tecnologias #corda {
+  background-image: url("../../img/corda.png");
+}
 .slider-tecnologias .tecnologias #bt {
   background-image: url("../../img/bt.png");
+}
+.slider-tecnologias .tecnologias #trilha {
+  background-image: url("../../img/trilha.png");
+}
+.slider-tecnologias .tecnologias #trekking {
+  background-image: url("../../img/trekking.png");
+}
+.slider-tecnologias .tecnologias #sumo {
+  background-image: url("../../img/sumo.png");
 }
 .slider-tecnologias .tecnologias .item {
   background-position: center;
